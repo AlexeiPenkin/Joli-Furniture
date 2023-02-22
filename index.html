@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+</head>
+
+<body>
+    <!-- Начало: Данный блок удалять нельзя -->
+    <style>
+        .maketforfigma {
+            flex: 0 0 auto;
+            /*background: #303b44;*/
+            /*background: #5CDB95;*/
+            background: #313a46;
+            font-weight: bold;
+            display: flex;
+        }
+
+        .maketforfigma img {
+            border-radius: 10px;
+            margin: 4px 0 0 4px;
+        }
+
+        .maketforfigma p {
+            /*color: #fff;*/
+            /*color: #05386B;*/
+            color: #98a6ad;
+            text-decoration: none;
+            letter-spacing: .01875rem;
+            font-size: .775rem;
+            padding: 0 10px;
+            line-height: 0.70rem;
+        }
+
+        .maketforfigma p>a {
+            /*color: #08ff00;*/
+            /*color: #EDF5E1;*/
+            color: #bbe4f0;
+            font-weight: bold;
+        }
+
+        .maketforfigma p>a:hover {
+            /*color: #ffa001*/
+            /*color: #379683*/
+            color: #ffffff
+        }
+
+        .main {
+            flex: 1 0 auto;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <div class="maketforfigma">
+        <a href="https://t.me/s/FigmaToHTML" target="_blank">
+            <img src="logo.png">
+        </a>
+        <div>
+            <p>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+            </p>
+            <p>
+                При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай
+                    за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+                <a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+            </p>
+        </div>
+    </div>
+    <!-- Конец -->
+
+    <div class="main">
+
+        <header class="header">
+            <a href="" class="header__link">Collections</a>
+            <a href="" class="header__link">Products</a>
+            <a href="" class="header__link">Inspiration</a>
+            <a href="" class="header__link">About us</a>
+            <a href="" class="header__link">Find a dealer</a>
+        </header>
+
+        <section class="intro">
+            <h1 class="intro__title">lasting memories</h1>
+        </section>
+
+        <section class="chairs">
+
+            <div class="chairs__info">
+                <h2 class="chairs__info-heading">making tables heroes</h2>
+                <p class="chairs__info-text">
+                    Chairs, cabinets, but especially tables by Joli are durable products, designed to last and to be
+                    used intensively.
+                </p>
+                <div class="chairs__info-nav">
+                    <button class="info-nav__button">about us</button>
+                    <a href="#" class="info-nav__link">collections</a>
+                </div>
+            </div>
+
+            <div class="chairs__samples">
+                <img src="./img/chairs_sample-top.png" alt="img" class="chairs__sample top">
+                <div class="chairs__samples-wrapper">
+                    <img src="./img/chairs_sample-bottom1.png" alt="img" class="chairs__sample bottom1">
+                    <img src="./img/chairs_sample-bottom2.png" alt="img" class="chairs__sample bottom2">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="collections">
+
+            <div class="collections__wrapper left">
+                <h2 class="collections__wrapper-heading">our collections</h2>
+                <nav class="collections__wrapper-navbar">
+                    <a href="#" class="wrapper-navbar-link">central</a>
+                    <a href="#" class="wrapper-navbar-link">olivio</a>
+                    <a href="#" class="wrapper-navbar-link">morisot</a>
+                    <a href="#" class="wrapper-navbar-link">curve</a>
+                    <a href="#" class="wrapper-navbar-link">wire</a>
+                    <a href="#" class="wrapper-navbar-link">marguerite</a>
+                    <a href="#" class="wrapper-navbar-link">fizz</a>
+                    <a href="#" class="wrapper-navbar-link">rafael</a>
+                    <a href="#" class="wrapper-navbar-link">chagall</a>
+                </nav>
+
+                <div class="collections__wrapper-figure">
+                    <img src="./img/wrapper-figure_img.png" alt="img" class="wrapper-figure__img">
+                    <span class="wrapper-figure__span top">central</span>
+                    <span class="wrapper-figure__span bottom">award winner</span>
+                </div>
+
+                <span class="collections__wrapper-span">
+                    <p class="wrapper-span-text">
+                        ready to become the centerpiece of your home
+                    </p>
+                    <img src="./img/wrapper-slider-arrow-next.svg" alt="icon" class="wrapper-slider-arrow next">
+                </span>
+            </div>
+
+            <div class="collections__wrapper right">
+
+                <img src="./img/collections_wrapper-img.png" alt="img" class="collections__wrapper-img">
+
+                <span class="collections__wrapper-span">
+                    Believe us, this will be a real eye-catcher
+                </span>
+
+                <div class="collections__wrapper-slider">
+                    <img src="./img/wrapper-slider-arrow-next.svg" alt="icon" class="wrapper-slider-arrow prev">
+                    <p class="wrapper-slider-number">1</p>
+                    <img src="./img/wrapper-slider-divider.png" alt="icon" class="wrapper-slider-divider">
+                    <p class="wrapper-slider-number">9</p>
+                    <img src="./img/wrapper-slider-arrow-next.svg" alt="icon" class="wrapper-slider-arrow next">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="dealers">
+            <div class="dealers__info">
+                <h2 class="dealers__info-title">find a dealer</h2>
+                <p class="dealers__info-text">
+                    We work together with dealers in 19 countries, all over the world. Find out which one is closest to
+                    you.
+                </p>
+                <input type="text" class="dealers__info-input" placeholder="Your location">
+                <button class="dealers__info-btn">search</button>
+            </div>
+            <img src="./img/dealers_figure.png" alt="img" class="dealers__figure">
+        </section>
+
+        <section class="gallery">
+            <h2 class="gallery__title">Terrace<br>Ceremonies & Meetings</h2>
+            <a href="#" class="gallery__link">inspire me</a>
+        </section>
+
+        <section class="slogan">
+            <h2 class="slogan__title">
+                joli manages to offer designs<br>that are both timelessly modern and trendy
+            </h2>
+            <button class="slogan__button">about us</button>
+        </section>
+
+        <section class="submission">
+            <img src="./img/submission_figure.png" alt="img" class="submission__figure">
+            <div class="submission__info">
+                <h2 class="submission__info-heading">become a dealer</h2>
+                <p class="submission__info-text">
+                    Do you want to become a Joli retailer? Please submit the following form and we will contact you!
+                </p>
+                <button class="submission__button">learn more</button>
+            </div>
+        </section>
+
+        <section class="man">
+            <img src="./img/man_figure.png" alt="img" class="man__figure">
+        </section>
+
+        <section class="request">
+            <p class="request__text">
+                Request our 2022 catalogue.
+            </p>
+            <div class="request__form">
+                <span class="request__form-span">email address *</span>
+                <input type="text" class="request__form-input">
+                <button class="request__form-btn">
+                    I agree with the Privacy & Cookie Policy of Joli
+                </button>
+            </div>
+            <button class="request__form-submit-btn">send</button>
+        </section>
+
+        <footer class="footer">
+            <img src="./img/footer_logo.svg" alt="icon" class="footer__logo">
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <div class="footer__links-item">
+                        <p class="links-item heading">collections</p>
+                        <a href="#" class="links-item">Wire</a>
+                        <a href="#" class="links-item">Curve</a>
+                        <a href="#" class="links-item">Fizz</a>
+                        <a href="#" class="links-item">Marguerite</a>
+                    </div>
+
+                    <div class="footer__links-item">
+                        <p class="links-item heading">Products</p>
+                        <a href="#" class="links-item">Tables</a>
+                        <a href="#" class="links-item">Chairs</a>
+                        <a href="#" class="links-item">Cabinets</a>
+                        <a href="#" class="links-item">Accessories</a>
+                    </div>
+
+                    <div class="footer__links-item">
+                        <p class="links-item heading">Inspiration</p>
+                        <a href="#" class="links-item">Joli Days<br>2022</a>
+                        <a href="#" class="links-item">Terrace</a>
+                        <a href="#" class="links-item">Ceremonies<br>& Meetings</a>
+                    </div>
+
+                    <div class="footer__links-item">
+                        <p class="links-item heading">About us</p>
+                        <a href="#" class="links-item">Materials</a>
+                        <a href="#" class="links-item">Find a dealer</a>
+                        <a href="#" class="links-item">Professionals</a>
+                        <a href="#" class="links-item">News</a>
+                    </div>
+
+                    <div class="footer__links-item">
+                        <p class="links-item heading">Contact</p>
+                        <a href="#" class="links-item">Industrielaan 5</a>
+                        <a href="#" class="links-item">8520 Kortrijk</a>
+                        <a href="#" class="links-item">info@joli.be</a>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    <a href="#" class="disclaimer-link policy">Privacy & Cookie Policy</a>
+                    <a href="#" class="disclaimer-link dis-claimer">Disclaimer</a>
+                    <a href="#" class="disclaimer-link skinn">made by skinn</a>
+                    <div class="socials">
+                        <img src="./img/social_facebook-icon.svg" alt="icon" class="social">
+                        <img src="./img/social_instagram-icon.svg" alt="icon" class="social">
+                        <img src="./img/social_messenger-icon.svg" alt="icon" class="social">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
